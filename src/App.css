@@ -52,10 +52,14 @@
   display: flex;
   justify-content: center;
   gap: 2em;
-  border-radius: 10px;
-  transition: background-color 0.3s ease;
 }
 
-.mi-buttons2:hover {
-  background-color: #218838; /* Color cuando el mouse pasa sobre el botón (más oscuro) */
+.button{
+background-color: #e9f1ea;
+border-radius: 10px;
+width: 30%;
+}
+ 
+.button:hover {
+  background-color: #73be84; /* Color cuando el mouse pasa sobre el botón (más oscuro) */
 }

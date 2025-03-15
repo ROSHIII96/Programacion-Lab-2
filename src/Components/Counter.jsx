@@ -8,12 +8,12 @@ export function Counter() {
         <p><br />El {count} es el numero favorito de Joseth</p>
         <p>{count}</p>
         <div className="buttons2">
-        <button onClick = {increaseCount}>
+          <button className="button" onClick = {increaseCount}>
           ➕
-        </button>
-        <button onClick = {dicreaseConunt}>
+          </button>
+          <button className="button" onClick = {dicreaseConunt}>
           ➖
-        </button>
+          </button>
         </div>
         </div>
         )
@@ -23,10 +23,10 @@ export function Counter() {
     <div className = "buttons">
         <p>{count}</p>
         <div className="buttons2">
-        <button onClick={increaseCount}>
+        <button className="button" onClick={increaseCount}>
           ➕
         </button>
-        <button onClick={dicreaseConunt}>
+        <button className="button" onClick={dicreaseConunt}>
           ➖
         </button>
         </div>
