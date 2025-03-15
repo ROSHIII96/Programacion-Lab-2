@@ -7,7 +7,7 @@ export function Counter() {
         <div className = "buttons">
         <p><br />El {count} es el numero favorito de Joseth</p>
         <p>{count}</p>
-        <div>
+        <div className="buttons2">
         <button onClick = {increaseCount}>
           ➕
         </button>
@@ -22,7 +22,7 @@ export function Counter() {
   return (
     <div className = "buttons">
         <p>{count}</p>
-        <div>
+        <div className="buttons2">
         <button onClick={increaseCount}>
           ➕
         </button>
